@@ -1,0 +1,55 @@
+@import url('@/assets/css/_fonts.scss');
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container{
+  max-width: 1170px;
+  height: 100%;
+}
+
+.flex{
+  display: flex;
+}
+
+.flex-col{
+  flex-direction: column;
+}
+
+
+h1,h2,h3,h4{
+  font-family: 'PFBulletin', sans-serif;
+}
+
+.font-description{
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.text-left{
+  text-align: left;
+}
+
+h1{
+  font-size: 50px;
+}
+h2{
+  font-size: 50px;
+}
+h3{
+  font-size: 30px;
+}
+.col-6{
+  width: 50%;
+}
